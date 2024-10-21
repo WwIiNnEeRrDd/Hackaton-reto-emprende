@@ -11,13 +11,9 @@ function Product({ nombre, descripcion, precio, comunidad, categoria, disponibil
         <Card.Title>{nombre}</Card.Title>
         <Card.Text>
           {descripcion}
-          <br />
           <strong>Precio:</strong> ${precio}
-          <br />
           <strong>Comunidad:</strong> {comunidad}
-          <br />
           <strong>Categoría:</strong> {categoria}
-          <br />
           <strong>Disponibilidad:</strong> {disponibilidad ? "Disponible" : "No disponible"}
         </Card.Text>
         <Button variant="primary">Ver más</Button>
